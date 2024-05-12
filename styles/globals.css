@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles can be added below */
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+/* Ensure basic accessibility features */
+:focus {
+  outline: 3px solid blue;
+  outline-offset: 2px;
+}
+
+/* Tailwind utilities are often enough but if you need custom styles, you can add them here */
+.value-prop-card {
+  background: #ffffff; /* White background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.value-prop-card:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* More prominent shadow on hover */
+}
+
+.value-prop-icon {
+  width: 32px; /* Proper scaling for icons */
+  height: 32px;
+}
+
+/* Ensures the text is centered and looks polished */
+.value-prop-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px; /* Space between title and description */
+}
+
+.value-prop-description {
+  font-size: 16px;
+  color: #666; /* Grey text for softer appearance */
+}

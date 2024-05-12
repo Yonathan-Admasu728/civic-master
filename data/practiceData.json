@@ -1,0 +1,512 @@
+[
+  
+    {
+      "id": 1,
+      "question": "What is the supreme law of the land in the United States?",
+      "options": ["The President", "The Supreme Court", "The Constitution", "The Declaration of Independence"],
+      "correctAnswer": "The Constitution",
+      "explanation": "The Constitution is considered the supreme law of the land in the United States. It sets up the framework for the federal government and outlines the fundamental rights and freedoms of Americans.",
+      "image": "placeholder_image.jpg"
+    },
+    {
+      "id": 2,
+      "question": "What does the Constitution do?",
+      "options": ["Creates the electoral college", "Defines state laws", "Sets up the government", "Protects the rights of the President"],
+      "correctAnswer": "Sets up the government",
+      "explanation": "The Constitution not only sets up the structure of the federal government but also defines its powers and responsibilities. It is designed to ensure the balance of power among the different branches of government.",
+      "image": "placeholder_image.jpg"
+    },
+    {
+      "id": 3,
+      "question": "The idea of self-government is represented in the first three words of the Constitution. What are these words?",
+      "options": ["We the People", "In God We", "Freedom and Liberty", "Justice for All"],
+      "correctAnswer": "We the People",
+      "explanation": "The phrase 'We the People' underscores the principle of self-government and the notion that government derives its power from the governed.",
+      "image": "placeholder_image.jpg"
+    },
+    {
+      "id": 4,
+      "question": "What do we call the first ten amendments to the Constitution?",
+      "options": ["The Bill of Rights", "The Fundamental Rights", "The Basic Laws", "The Preliminary Amendments"],
+      "correctAnswer": "The Bill of Rights",
+      "explanation": "The first ten amendments to the Constitution are known as the Bill of Rights. They were introduced to protect the essential rights and liberties of individuals from governmental interference.",
+      "image": "placeholder_image.jpg"
+    },
+      {
+        "id": 5,
+        "question": "How many amendments does the Constitution have?",
+        "options": ["27", "10", "50", "33"],
+        "correctAnswer": "27",
+        "explanation": "The Constitution of the United States has 27 amendments. These amendments cover a wide range of issues, from the rights of individual citizens to the terms of federal office holders.",
+        "image": "placeholder_image.jpg"
+      },
+      {
+        "id": 6,
+        "question": "What did the Declaration of Independence do?",
+        "options": ["Established the first U.S. government", "Declared independence from France", "Announced independence from Great Britain", "Created the Federalist Papers"],
+        "correctAnswer": "Announced independence from Great Britain",
+        "explanation": "The Declaration of Independence, adopted on July 4, 1776, announced the American colonies' separation from Great Britain, outlining the principles of individual rights and self-government.",
+        "image": "placeholder_image.jpg"
+      },
+      {
+        "id": 7,
+        "question": "What are two rights in the Declaration of Independence?",
+        "options": ["Life and death", "Liberty and justice", "Life and liberty", "Freedom and education"],
+        "correctAnswer": "Life and liberty",
+        "explanation": "The Declaration of Independence explicitly mentions several 'unalienable rights,' which include life, liberty, and the pursuit of happiness. These fundamental rights have been foundational to American principles.",
+        "image": "placeholder_image.jpg"
+      },
+      {
+        "id": 8,
+        "question": "What is freedom of religion?",
+        "options": ["You can practice any religion or no religion", "Only state-approved religions can be practiced", "No one can practice religion", "Religion is mandatory"],
+        "correctAnswer": "You can practice any religion or no religion",
+        "explanation": "Freedom of religion, as outlined in the First Amendment of the Constitution, ensures that individuals can practice any religion of their choice or choose not to follow any, without coercion or interference from the government.",
+        "image": "placeholder_image.jpg"
+      },
+      {
+        "id": 9,
+        "question": "What is the economic system in the United States?",
+        "options": ["Socialist Economy", "Communist Economy", "Capitalist Economy", "Feudal Economy"],
+        "correctAnswer": "Capitalist Economy",
+        "explanation": "The United States operates under a capitalist economic system, characterized by private ownership and the free market where supply and demand dictate production and price.",
+        "image": "placeholder_image.jpg"
+      },
+      {
+        "id": 10,
+        "question": "What is the 'rule of law'?",
+        "options": ["Laws are passed by monarchs", "Everyone must follow the law", "Only certain people must follow the law", "Lawyers rule the country"],
+        "correctAnswer": "Everyone must follow the law",
+        "explanation": "The 'rule of law' is a fundamental principle that ensures all individuals, institutions, and entities, public and private, including the state itself, are accountable to laws that are publicly promulgated, equally enforced, and independently adjudicated.",
+        "image": "placeholder_image.jpg"
+      },
+        {
+          "id": 11,
+          "question": "Name one branch or part of the government.",
+          "options": ["The Legislature", "The Supreme Court", "The Executive", "All of the above"],
+          "correctAnswer": "All of the above",
+          "explanation": "The U.S. government is divided into three branches: the legislative (Congress), the executive (President and Cabinet), and the judicial (Supreme Court), to ensure a balance of power.",
+          "image": "placeholder_image.jpg"
+        },
+        {
+          "id": 12,
+          "question": "What stops one branch of government from becoming too powerful?",
+          "options": ["Checks and balances", "The President", "The military", "The voting system"],
+          "correctAnswer": "Checks and balances",
+          "explanation": "The system of checks and balances ensures that no single branch of government gains too much power. Each branch has the ability to alter or veto acts of another branch, which prevents any branch from exerting too much power.",
+          "image": "placeholder_image.jpg"
+        },
+        {
+          "id": 13,
+          "question": "Who is in charge of the executive branch?",
+          "options": ["The President", "The Speaker of the House", "The Chief Justice", "The Senate"],
+          "correctAnswer": "The President",
+          "explanation": "The President of the United States is the head of the executive branch of government, which enforces the laws written by Congress.",
+          "image": "placeholder_image.jpg"
+        },
+        {
+          "id": 14,
+          "question": "Who makes federal laws?",
+          "options": ["The Supreme Court", "The President", "Congress", "State Governors"],
+          "correctAnswer": "Congress",
+          "explanation": "Federal laws are made by Congress, which is the legislative branch of the government consisting of the Senate and the House of Representatives.",
+          "image": "placeholder_image.jpg"
+        },
+        {
+          "id": 15,
+          "question": "What are the two parts of the U.S. Congress?",
+          "options": ["Senate and House of Representatives", "Supreme Court and House of Representatives", "President and Senate", "Senate and Supreme Court"],
+          "correctAnswer": "Senate and House of Representatives",
+          "explanation": "The U.S. Congress is bicameral, consisting of two chambers: the Senate and the House of Representatives. This structure allows for the balance and check of powers within the legislature.",
+          "image": "placeholder_image.jpg"
+        },
+        {
+          "id": 16,
+          "question": "How many U.S. Senators are there?",
+          "options": ["50", "100", "435", "200"],
+          "correctAnswer": "100",
+          "explanation": "There are 100 U.S. Senators, with each state represented by two senators, regardless of the state's population size, making up one of the two chambers of Congress.",
+          "image": "placeholder_image.jpg"
+        },
+        {
+          "id": 17,
+          "question": "We elect a U.S. Senator for how many years?",
+          "options": ["2", "4", "6", "8"],
+          "correctAnswer": "6",
+          "explanation": "U.S. Senators are elected to serve six-year terms. The long term is designed to provide stability and experience in the Senate.",
+          "image": "placeholder_image.jpg"
+        },
+        {
+          "id": 18,
+          "question": "The House of Representatives has how many voting members?",
+          "options": ["100", "435", "50", "300"],
+          "correctAnswer": "435",
+          "explanation": "The House of Representatives consists of 435 voting members, with the number of representatives from each state based on its population.",
+          "image": "placeholder_image.jpg"
+        },
+        
+          {
+            "id": 19,
+            "question": "We elect a U.S. Representative for how many years?",
+            "options": ["2", "4", "6", "10"],
+            "correctAnswer": "2",
+            "explanation": "Members of the House of Representatives are elected for two-year terms. This short term length is intended to keep the representatives closely aligned with the interests of their constituents.",
+            "image": "placeholder_image.jpg"
+          },
+          {
+            "id": 20,
+            "question": "Who does a U.S. Senator represent?",
+            "options": ["Their political party", "Their district", "All people of the state", "Only the urban areas"],
+            "correctAnswer": "All people of the state",
+            "explanation": "U.S. Senators represent all people of their entire state, unlike Representatives who serve the constituents of a specific congressional district.",
+            "image": "placeholder_image.jpg"
+          },
+          {
+            "id": 21,
+            "question": "Why do some states have more Representatives than other states?",
+            "options": ["Due to the state's population", "Based on the state's size", "Dependent on the state's GDP", "Based on historical precedent"],
+            "correctAnswer": "Due to the state's population",
+            "explanation": "The number of Representatives in the House is based on the population of each state. States with larger populations have more Representatives.",
+            "image": "placeholder_image.jpg"
+          },
+          {
+            "id": 22,
+            "question": "We elect a President for how many years?",
+            "options": ["2", "4", "6", "10"],
+            "correctAnswer": "4",
+            "explanation": "The President of the United States is elected to a four-year term. This term length allows the President to implement and promote their policies over a significant period while still holding them accountable to the electorate.",
+            "image": "placeholder_image.jpg"
+          },
+          {
+            "id": 23,
+            "question": "In what month do we vote for President?",
+            "options": ["January", "April", "July", "November"],
+            "correctAnswer": "November",
+            "explanation": "Presidential elections in the United States are held every four years in November. The specific day is set as the Tuesday following the first Monday in November.",
+            "image": "placeholder_image.jpg"
+          },
+          {
+            "id": 24,
+            "question": "What is the name of the Vice President of the United States now?",
+            "options": ["The current Vice President is updated at uscis.gov/citizenship/testupdates", "Joe Biden", "Kamala Harris", "Mike Pence"],
+            "correctAnswer": "The current Vice President is updated at uscis.gov/citizenship/testupdates",
+            "explanation": "As political positions can change with elections, it is best to check current official sources like uscis.gov for the latest information on the sitting Vice President.",
+            "image": "placeholder_image.jpg"
+          },
+          {
+            "id": 25,
+            "question": "If the President can no longer serve, who becomes President?",
+            "options": ["The Vice President", "The Speaker of the House", "The Chief Justice", "The Secretary of State"],
+            "correctAnswer": "The Vice President",
+            "explanation": "According to the U.S. Constitution, if the President can no longer serve, the Vice President assumes the presidency.",
+            "image": "placeholder_image.jpg"
+          },
+          
+            {
+              "id": 26,
+              "question": "If both the President and the Vice President can no longer serve, who becomes President?",
+              "options": ["The Speaker of the House", "The Secretary of State", "The Chief Justice", "The Secretary of Defense"],
+              "correctAnswer": "The Speaker of the House",
+              "explanation": "In the line of presidential succession, if both the President and the Vice President are unable to serve, the Speaker of the House of Representatives is next in line to assume the presidency.",
+              "image": "placeholder_image.jpg"
+            },
+            {
+              "id": 27,
+              "question": "Who is the Commander in Chief of the military?",
+              "options": ["The Secretary of Defense", "The Vice President", "The President", "The Chief Justice"],
+              "correctAnswer": "The President",
+              "explanation": "The President of the United States serves as the Commander in Chief of the Armed Forces. This role empowers the President to command the military forces.",
+              "image": "placeholder_image.jpg"
+            },
+            {
+              "id": 28,
+              "question": "Who signs bills to become laws?",
+              "options": ["The Vice President", "The Secretary of State", "The President", "The Speaker of the House"],
+              "correctAnswer": "The President",
+              "explanation": "Once Congress passes a bill, it is sent to the President, who has the authority to sign it into law or veto it.",
+              "image": "placeholder_image.jpg"
+            },
+            {
+              "id": 29,
+              "question": "Who vetoes bills?",
+              "options": ["The Chief Justice", "The Speaker of the House", "The President", "The Vice President"],
+              "correctAnswer": "The President",
+              "explanation": "The President of the United States has the power to veto, or reject, bills passed by Congress. This is a key part of the checks and balances system.",
+              "image": "placeholder_image.jpg"
+            },
+            {
+              "id": 30,
+              "question": "What does the President's Cabinet do?",
+              "options": ["Makes laws", "Declares war", "Advises the President", "Judges Supreme Court cases"],
+              "correctAnswer": "Advises the President",
+              "explanation": "The President's Cabinet is composed of the heads of the federal executive departments and other key officials. They serve as advisors to the President on any subject related to their respective posts.",
+              "image": "placeholder_image.jpg"
+            },
+            {
+              "id": 31,
+              "question": "What are two Cabinet-level positions?",
+              "options": ["Secretary of State and Secretary of Defense", "Secretary of Agriculture and Secretary of Education", "Secretary of Treasury and Secretary of Labor", "All of the above"],
+              "correctAnswer": "All of the above",
+              "explanation": "Cabinet-level positions include Secretary of State, Secretary of Defense, Secretary of Agriculture, Secretary of Education, Secretary of Treasury, and Secretary of Labor, among others.",
+              "image": "placeholder_image.jpg"
+            },
+            {
+              "id": 32,
+              "question": "What does the judicial branch do?",
+              "options": ["Executes laws", "Creates laws", "Reviews laws", "Enforces immigration policies"],
+              "correctAnswer": "Reviews laws",
+              "explanation": "The judicial branch of government interprets laws and reviews the constitutionality of laws and acts in legal disputes. This branch ensures the law remains supreme.",
+              "image": "placeholder_image.jpg"
+            },
+          
+            
+              {
+                "id": 33,
+                "question": "What is the highest court in the United States?",
+                "options": ["The Federal Court", "The Supreme Court", "The Circuit Court", "The Court of Appeals"],
+                "correctAnswer": "The Supreme Court",
+                "explanation": "The Supreme Court is the highest court in the United States and has ultimate appellate jurisdiction over all federal and state courts, dealing with matters of federal law.",
+                "image": "placeholder_image.jpg"
+              },
+              {
+                "id": 34,
+                "question": "How many justices are on the Supreme Court?",
+                "options": ["9", "12", "6", "15"],
+                "correctAnswer": "9",
+                "explanation": "The Supreme Court of the United States is traditionally made up of nine justices, including one Chief Justice and eight Associate Justices.",
+                "image": "placeholder_image.jpg"
+              },
+              {
+                "id": 35,
+                "question": "Who is the Chief Justice of the United States now?",
+                "options": ["The current Chief Justice is updated at uscis.gov/citizenship/testupdates", "John Roberts", "Ruth Bader Ginsburg", "Clarence Thomas"],
+                "correctAnswer": "The current Chief Justice is updated at uscis.gov/citizenship/testupdates",
+                "explanation": "The Chief Justice of the United States is the head of the U.S. federal court system and the Chief Judge of the Supreme Court. This position changes over time, so it's best to check current sources for the latest information.",
+                "image": "placeholder_image.jpg"
+              },
+              {
+                "id": 36,
+                "question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+                "options": ["To print money", "To issue driver's licenses", "To control public schools", "To manage city governments"],
+                "correctAnswer": "To print money",
+                "explanation": "Among the exclusive powers of the federal government is the authority to print money. This power is not shared with the states.",
+                "image": "placeholder_image.jpg"
+              },
+              {
+                "id": 37,
+                "question": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+                "options": ["To declare war", "To create an army", "To provide schooling and education", "To coin money"],
+                "correctAnswer": "To provide schooling and education",
+                "explanation": "States have the power to provide public education. This is an example of a power reserved for states, allowing them to establish and manage their own public school systems.",
+                "image": "placeholder_image.jpg"
+              },
+              {
+                "id": 38,
+                "question": "Who is the Governor of your state now?",
+                "options": ["The current Governor is updated at uscis.gov/citizenship/testupdates", "The President", "The State Senator", "The Lieutenant Governor"],
+                "correctAnswer": "The current Governor is updated at uscis.gov/citizenship/testupdates",
+                "explanation": "The Governor is the chief executive of a state in the United States. The identity of the governor can change due to elections, hence checking updated sources is recommended.",
+                "image": "placeholder_image.jpg"
+              },
+              {
+                "id": 39,
+                "question": "What is the capital of your state?",
+                "options": ["The capital of your state is updated at uscis.gov/citizenship/testupdates", "Washington, D.C.", "Your state's largest city", "None of the above"],
+                "correctAnswer": "The capital of your state is updated at uscis.gov/citizenship/testupdates",
+                "explanation": "Each U.S. state has a capital where the state government is based. This location can be checked through reliable sources for the most accurate information.",
+                "image": "placeholder_image.jpg"
+              },
+
+                {
+                  "id": 40,
+                  "question": "What are the two major political parties in the United States?",
+                  "options": ["Democratic and Republican", "Federalist and Whig", "Libertarian and Green", "Conservative and Liberal"],
+                  "correctAnswer": "Democratic and Republican",
+                  "explanation": "The two major political parties in the United States today are the Democratic Party and the Republican Party. These parties have dominated American politics for many decades.",
+                  "image": "placeholder_image.jpg"
+                },
+                {
+                  "id": 41,
+                  "question": "What is the political party of the President now?",
+                  "options": ["Democratic", "Republican", "Independent", "No party affiliation"],
+                  "correctAnswer": "The current political party of the President is updated at uscis.gov/citizenship/testupdates",
+                  "explanation": "The political party of the President can change with each election cycle, reflecting the democratic choice of the citizens. Current details can be found on official government websites.",
+                  "image": "placeholder_image.jpg"
+                },
+                {
+                  "id": 42,
+                  "question": "What is the name of the Speaker of the House of Representatives now?",
+                  "options": ["Current Speaker is updated at uscis.gov/citizenship/testupdates", "Nancy Pelosi", "Paul Ryan", "John Boehner"],
+                  "correctAnswer": "Current Speaker is updated at uscis.gov/citizenship/testupdates",
+                  "explanation": "The Speaker of the House is an important leadership role within the U.S. Congress, and the person occupying this position can change after congressional elections or internal party decisions.",
+                  "image": "placeholder_image.jpg"
+                },
+                {
+                  "id": 43,
+                  "question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+                  "options": ["Citizens eighteen (18) and older can vote", "Only men can vote", "Only property owners can vote", "Citizens must pay a tax to vote"],
+                  "correctAnswer": "Citizens eighteen (18) and older can vote",
+                  "explanation": "One of the key amendments to the Constitution allows all citizens aged eighteen and older the right to vote, regardless of gender, race, or wealth. This amendment lowered the voting age from twenty-one to eighteen.",
+                  "image": "placeholder_image.jpg"
+                },
+                {
+                  "id": 44,
+                  "question": "What is one responsibility that is only for United States citizens?",
+                  "options": ["Paying taxes", "Serving on a jury", "Obeying the law", "Attending school"],
+                  "correctAnswer": "Serving on a jury",
+                  "explanation": "Serving on a jury is a responsibility unique to United States citizens. This civic duty ensures that the legal system operates fairly and justly, with a jury of peers.",
+                  "image": "placeholder_image.jpg"
+                },
+                {
+                  "id": 45,
+                  "question": "Name one right only for United States citizens.",
+                  "options": ["Freedom of speech", "Right to vote in federal elections", "Freedom of religion", "Right to a fair trial"],
+                  "correctAnswer": "Right to vote in federal elections",
+                  "explanation": "One of the most important rights reserved only for U.S. citizens is the right to vote in federal elections, which allows citizens to influence the government and its policies.",
+                  "image": "placeholder_image.jpg"
+                },
+                {
+                  "id": 46,
+                  "question": "What are two rights of everyone living in the United States?",
+                  "options": ["Freedom of expression and freedom to petition the government", "Freedom of assembly and freedom of speech", "Right to vote and right to public education", "Right to bear arms and right to run for federal office"],
+                  "correctAnswer": "Freedom of assembly and freedom of speech",
+                  "explanation": "Everyone in the United States, regardless of citizenship status, enjoys fundamental freedoms such as the freedom of assembly and the freedom of speech, as protected under the First Amendment.",
+                  "image": "placeholder_image.jpg"
+                },
+                
+                  {
+                    "id": 47,
+                    "question": "What do we show loyalty to when we say the Pledge of Allegiance?",
+                    "options": ["The President", "The Constitution", "The United States", "The Flag"],
+                    "correctAnswer": "The United States",
+                    "explanation": "When reciting the Pledge of Allegiance, individuals express their loyalty and commitment to the United States, symbolized by the flag.",
+                    "image": "placeholder_image.jpg"
+                  },
+                  {
+                    "id": 48,
+                    "question": "What is one promise you make when you become a United States citizen?",
+                    "options": ["To obey the laws of the United States", "To give up loyalty to other countries", "To never travel abroad", "To serve in the U.S. military"],
+                    "correctAnswer": "To give up loyalty to other countries",
+                    "explanation": "One key promise made when becoming a U.S. citizen is to renounce loyalty to other countries, emphasizing allegiance solely to the United States.",
+                    "image": "placeholder_image.jpg"
+                  },
+                  {
+                    "id": 49,
+                    "question": "How old do citizens have to be to vote for President?",
+                    "options": ["16", "18", "21", "25"],
+                    "correctAnswer": "18",
+                    "explanation": "Citizens of the United States must be at least 18 years old to vote in presidential elections, a right established to encourage participation among younger adults.",
+                    "image": "placeholder_image.jpg"
+                  },
+                  {
+                    "id": 50,
+                    "question": "What are two ways that Americans can participate in their democracy?",
+                    "options": ["Vote and run for office", "Pay taxes and obey laws", "Attend school and work", "Shop and travel"],
+                    "correctAnswer": "Vote and run for office",
+                    "explanation": "Voting and running for office are direct ways Americans can participate in their democracy, influencing government and representing their communities.",
+                    "image": "placeholder_image.jpg"
+                  },
+                  {
+                    "id": 51,
+                    "question": "When is the last day you can send in federal income tax forms?",
+                    "options": ["April 15", "July 4", "December 31", "October 1"],
+                    "correctAnswer": "April 15",
+                    "explanation": "April 15 is traditionally the deadline for filing federal income tax returns in the United States, a civic duty of all earning residents.",
+                    "image": "placeholder_image.jpg"
+                  },
+                  {
+                    "id": 52,
+                    "question": "When must all men register for the Selective Service?",
+                    "options": ["At age 16", "At age 18", "At age 21", "When they become citizens"],
+                    "correctAnswer": "At age 18",
+                    "explanation": "All men are required to register for the Selective Service upon reaching 18 years of age. This registration is important for national preparedness.",
+                    "image": "placeholder_image.jpg"
+                  },
+                  {
+                    "id": 53,
+                    "question": "What is one reason colonists came to America?",
+                    "options": ["For adventure", "For freedom", "To establish a new nation", "To find gold"],
+                    "correctAnswer": "For freedom",
+                    "explanation": "Many colonists came to America seeking freedom, whether it was religious freedom or the chance to live free from old European hierarchies.",
+                    "image": "placeholder_image.jpg"
+                  }, 
+                  
+                    {
+                      "id": 54,
+                      "question": "Who lived in America before the Europeans arrived?",
+                      "options": ["European settlers", "American Indians", "African explorers", "Asian traders"],
+                      "correctAnswer": "American Indians",
+                      "explanation": "Before European explorers and settlers arrived, American Indians were the indigenous peoples living across what is now the United States.",
+                      "image": "placeholder_image.jpg"
+                    },
+                    {
+                      "id": 55,
+                      "question": "What group of people was taken to America and sold as slaves?",
+                      "options": ["Europeans", "Africans", "Asians", "South Americans"],
+                      "correctAnswer": "Africans",
+                      "explanation": "Africans were forcibly brought to America and sold as slaves, a dark and critical aspect of American history that shaped societal and economic structures.",
+                      "image": "placeholder_image.jpg"
+                    },
+                    {
+                      "id": 56,
+                      "question": "Why did the colonists fight the British?",
+                      "options": ["For land", "Because of taxation without representation", "To support the French", "To expand slavery"],
+                      "correctAnswer": "Because of taxation without representation",
+                      "explanation": "The primary catalyst for the American Revolutionary War was 'taxation without representation,' where colonists were taxed by the British government without having any representatives in the British Parliament.",
+                      "image": "placeholder_image.jpg"
+                    },
+                    {
+                      "id": 57,
+                      "question": "Who wrote the Declaration of Independence?",
+                      "options": ["George Washington", "Thomas Jefferson", "Benjamin Franklin", "John Adams"],
+                      "correctAnswer": "Thomas Jefferson",
+                      "explanation": "Thomas Jefferson is credited with writing the Declaration of Independence, which articulated the colonies' reasons for seeking independence from British rule.",
+                      "image": "placeholder_image.jpg"
+                    },
+                    {
+                      "id": 58,
+                      "question": "When was the Declaration of Independence adopted?",
+                      "options": ["July 4, 1776", "December 25, 1776", "April 13, 1775", "September 2, 1783"],
+                      "correctAnswer": "July 4, 1776",
+                      "explanation": "The Declaration of Independence was officially adopted on July 4, 1776, a date now celebrated as Independence Day in the United States.",
+                      "image": "placeholder_image.jpg"
+                    },
+                    {
+                      "id": 59,
+                      "question": "There were 13 original states. Name three.",
+                      "options": ["New York, Florida, Texas", "California, Nevada, Utah", "New Hampshire, Massachusetts, Rhode Island", "Ohio, Michigan, Indiana"],
+                      "correctAnswer": "New Hampshire, Massachusetts, Rhode Island",
+                      "explanation": "The original 13 states of the United States were all located on the East Coast and include New Hampshire, Massachusetts, and Rhode Island.",
+                      "image": "placeholder_image.jpg"
+                    },
+                    {
+                      "id": 60,
+                      "question": "What happened at the Constitutional Convention?",
+                      "options": ["The Civil War began", "The Constitution was written", "The Declaration of Independence was signed", "The Articles of Confederation were created"],
+                      "correctAnswer": "The Constitution was written",
+                      "explanation": "The Constitutional Convention, held in 1787 in Philadelphia, was where the U.S. Constitution was drafted, creating the framework for the federal government that is still in use today.",
+                      "image": "placeholder_image.jpg"
+                    }
+                  
+                  
+                
+                
+              
+              
+            
+            
+        
+      
+    
+    
+  
+  
+                  
+                    
+                
+
+          
+      
+    ]
+  
+  
