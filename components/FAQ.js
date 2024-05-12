@@ -16,7 +16,7 @@ const faqList = [
     "question": "How are CivicMaster's flashcards different from USCIS website flashcards?",
     "answer": (
       <p>
-      CivicMaster's flashcards are designed to enhance your learning experience by making it more intuitive and user-friendly. Unlike USCIS flashcards, where you might accidentally see the answers due to their scroll-down format, our flashcards employ a flip mechanism that allows you to genuinely test your knowledge before revealing the solution. This innovative approach ensures that you are learning actively, not just passively viewing answers. Additionally, our content is regularly updated to reflect the latest information and best practices, ensuring you have the most current materials at your fingertips.
+      CivicMaster flashcards are designed to enhance your learning experience by making it more intuitive and user-friendly. Unlike USCIS flashcards, where you might accidentally see the answers due to their scroll-down format, our flashcards employ a flip mechanism that allows you to genuinely test your knowledge before revealing the solution. This innovative approach ensures that you are learning actively, not just passively viewing answers. Additionally, our content is regularly updated to reflect the latest information and best practices, ensuring you have the most current materials at your fingertips.
       </p>
     ),
 },

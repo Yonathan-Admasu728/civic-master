@@ -127,7 +127,7 @@ export const articles = [
         <section>
           <h3 className={styles.h3}>1. Create a CivicMaster account</h3>
           <p className={styles.p}>
-            Start by visiting CivicMaster and registering for an account. It's quick, easy, and opens up a wealth of resources designed specifically for citizenship preparation.
+            Start by visiting CivicMaster and registering for an account. It is quick, easy, and opens up a wealth of resources designed specifically for citizenship preparation.
           </p>
           <ul className={styles.ul}>
             <li className={styles.li}>Access to interactive quizzes</li>
