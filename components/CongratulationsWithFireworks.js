@@ -6,6 +6,7 @@ function CongratulationsWithFireworks() {
     const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
 
     useEffect(() => {
+        const element = ref.current;  // Capture the current state of `ref.current`
         const resizeObserver = new ResizeObserver(entries => {
             if (entries[0].contentRect.width > 0 && entries[0].contentRect.height > 0) {
                 setDimensions({
@@ -14,17 +15,18 @@ function CongratulationsWithFireworks() {
                 });
             }
         });
-
-        if (ref.current) {
-            resizeObserver.observe(ref.current);
+    
+        if (element) {
+            resizeObserver.observe(element);
         }
-
+    
         return () => {
-            if (ref.current) {
-                resizeObserver.unobserve(ref.current);
+            if (element) {  // Use the captured value
+                resizeObserver.unobserve(element);
             }
         };
-    }, []);
+    }, []);  // Empty dependency array means this effect runs only once after the component mounts
+    
 
     useEffect(() => {
         if (dimensions.width > 0 && dimensions.height > 0) {
@@ -61,7 +63,7 @@ function CongratulationsWithFireworks() {
         <div style={{ position: 'relative', width: '100%', minHeight: '100vh', overflow: 'hidden' }}>
             <div className="congratulations-container">
                 <h1 className="congratulations-header">Congratulations! 🎉</h1>
-                <p className="congratulations-text">You've completed all 100 flashcards on American History. Great job!</p>
+                <p className="congratulations-text">You&apos;ve completed all 100 flashcards on American History. Great job!</p>
                 <p className="congratulations-text">Come back anytime to refresh your knowledge and prepare for the Civics test.</p>
             </div>
             <div ref={ref} style={{ width: '100%', height: '400px', position: 'absolute', bottom: 0 }}></div>

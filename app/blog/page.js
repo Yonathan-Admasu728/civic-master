@@ -22,7 +22,7 @@ export default async function Blog() {
           The {config.appName} Blog
         </h1>
         <p className="text-lg opacity-80 leading-relaxed">
-        "Master U.S. citizenship quickly with CivicMaster's flashcards and quizzes. Like having a personal tutor, each card offers a genuine challenge to test your knowledge before revealing the answer. Flip when ready and confirm your understanding with our up-to-date, effective learning tools"
+        &quot;Master U.S. citizenship quickly with CivicMaster&apos;s flashcards and quizzes. Like having a personal tutor, each card offers a genuine challenge to test your knowledge before revealing the answer. Flip when ready and confirm your understanding with our up-to-date, effective learning tools&quot;
         </p>
       </section>
 
