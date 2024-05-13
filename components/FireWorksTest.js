@@ -24,6 +24,7 @@ function CongratulationsWithFireworks({ completionStage, handleNextSet }) {
     const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
 
     useEffect(() => {
+        const element = ref.current;  // Capture the current state of `ref.current`
         const resizeObserver = new ResizeObserver(entries => {
             if (entries[0].contentRect.width > 0 && entries[0].contentRect.height > 0) {
                 setDimensions({
@@ -32,18 +33,18 @@ function CongratulationsWithFireworks({ completionStage, handleNextSet }) {
                 });
             }
         });
-
-        if (ref.current) {
-            resizeObserver.observe(ref.current);
+    
+        if (element) {
+            resizeObserver.observe(element);
         }
-
+    
         return () => {
-            if (ref.current) {
-                resizeObserver.unobserve(ref.current);
+            if (element) {  // Use the captured value for unobserving
+                resizeObserver.unobserve(element);
             }
         };
-    }, []);
-
+    }, []);  // Empty dependency array means this effect runs only once after the component mounts
+    
 
 
     useEffect(() => {

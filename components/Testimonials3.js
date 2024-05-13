@@ -69,7 +69,7 @@ const Testimonials3 = () => {
             Hear from Our Users
           </h2>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-base-content/80">
-            Don't just take our word for it. Here's how CivicMaster helped our users pass their U.S. Citizenship Test with ease.
+            Don&apos;t just take our word for it. Here&apos;s how CivicMaster helped our users pass their U.S. Citizenship Test with ease.
           </p>
         </div>
 

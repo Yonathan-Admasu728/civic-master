@@ -22,12 +22,7 @@ export default function FlashcardsContainer() {
         // Load the initial flashcard data
         setCurrentQuestion(flashcardsData[dataKeys[currentIndex]]);
         setCompleted(currentIndex >= dataKeys.length); // Check if completed
-    }, [currentIndex]); // This now depends on currentIndex
-
-    useEffect(() => {
-        // Save the current index to local storage whenever it changes
-        localStorage.setItem('flashcardsCurrentIndex', currentIndex);
-    }, [currentIndex]);
+    }, [currentIndex, dataKeys]); // Include 'dataKeys' in the dependency array
 
     const handleNext = () => {
         if (currentIndex < dataKeys.length - 1) {
