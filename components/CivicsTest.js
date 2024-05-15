@@ -63,6 +63,17 @@ function CivicsTest() {
     synth.speak(utterance);
   };
 
+  const handleRestart = () => {
+    setCurrentIndex(0);
+    setUserAnswer('');
+    setCorrectCount(0);
+    setIncorrectCount(0);
+    setShowFeedback(false);
+    localStorage.setItem('civicsTestCurrentIndex', 0);
+    localStorage.setItem('civicsTestCorrectCount', 0);
+    localStorage.setItem('civicsTestIncorrectCount', 0);
+  };
+
   const completionStage = useMemo(() => {
     if ((currentIndex + 1) % 20 === 0 || currentIndex === practiceData.length - 1) {
       return currentIndex + 1;
@@ -71,7 +82,7 @@ function CivicsTest() {
   }, [currentIndex]);
 
   if (completionStage) {
-    return <CongratulationsWithFireworks completionStage={completionStage} handleNextSet={handleNext} />;
+    return <CongratulationsWithFireworks completionStage={completionStage} handleNextSet={handleNext} handleRestart={handleRestart} />;
   }
 
   const currentQuestion = practiceData[currentIndex];

@@ -1,9 +1,8 @@
+"use client"; 
 import React, { useEffect, useRef, useState } from 'react';
 import { Fireworks } from 'fireworks-js';
 
-
-
-function CongratulationsWithFireworks({ completionStage, handleNextSet }) {
+function CongratulationsWithFireworks({ completionStage, handleNextSet, handleRestart }) {
     const messageMap = {
         20: {
             header: "Great Progress!",
@@ -89,8 +88,16 @@ function CongratulationsWithFireworks({ completionStage, handleNextSet }) {
                         Continue
                     </button>
                 )}
+                {completionStage === 60 && (
+                    <button
+                        onClick={handleRestart}
+                        className="btn btn-outline start-over-button p-2 rounded-full bg-black hover:bg-accent-color text-white shadow-md transition-colors duration-300 ease-in-out"
+                    >
+                        Start Over
+                    </button>
+                )}
             </div>
-            <div ref={ref} style={{ width: '100%', height: '400px', position: 'absolute', bottom: 0 }}></div>
+            <div ref={ref} style={{ width: '100%', height: '400px', position: 'absolute', bottom: 0, zIndex: 9999 }}></div>
             <style jsx>{`
                 .congratulations-container {
                     display: flex;
@@ -104,12 +111,21 @@ function CongratulationsWithFireworks({ completionStage, handleNextSet }) {
                     text-align: center;
                     padding: 20px;
                     box-sizing: border-box;
+                    position: relative;
                 }
                 .congratulations-header {
                     font-size: 2rem;
                 }
                 .congratulations-text {
                     font-size: 1.5rem;
+                }
+                .continue-button {
+                    margin-top: 20px;
+                }
+                .start-over-button {
+                    position: absolute;
+                    top: 20px;
+                    right: 20px;
                 }
                 @media (max-width: 768px) {
                     .congratulations-header {
@@ -118,11 +134,17 @@ function CongratulationsWithFireworks({ completionStage, handleNextSet }) {
                     .congratulations-text {
                         font-size: 1rem;
                     }
+                    .continue-button {
+                        margin-top: 10px;
+                    }
+                    .start-over-button {
+                        top: 10px;
+                        right: 10px;
+                    }
                 }
             `}</style>
         </div>
     );
 }
-
 
 export default CongratulationsWithFireworks;

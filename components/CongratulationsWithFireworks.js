@@ -1,12 +1,12 @@
+"use client"; 
 import React, { useEffect, useRef, useState } from 'react';
 import { Fireworks } from 'fireworks-js';
 
-function CongratulationsWithFireworks() {
+function CongratulationsWithFireworks({ onRestart }) {
     const ref = useRef(null);
     const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
 
     useEffect(() => {
-        const element = ref.current;  // Capture the current state of `ref.current`
         const resizeObserver = new ResizeObserver(entries => {
             if (entries[0].contentRect.width > 0 && entries[0].contentRect.height > 0) {
                 setDimensions({
@@ -15,18 +15,17 @@ function CongratulationsWithFireworks() {
                 });
             }
         });
-    
-        if (element) {
-            resizeObserver.observe(element);
+
+        if (ref.current) {
+            resizeObserver.observe(ref.current);
         }
-    
+
         return () => {
-            if (element) {  // Use the captured value
-                resizeObserver.unobserve(element);
+            if (ref.current) {
+                resizeObserver.unobserve(ref.current);
             }
         };
-    }, []);  // Empty dependency array means this effect runs only once after the component mounts
-    
+    }, []);
 
     useEffect(() => {
         if (dimensions.width > 0 && dimensions.height > 0) {
@@ -57,16 +56,22 @@ function CongratulationsWithFireworks() {
                 }
             };
         }
-    }, [dimensions]); // Re-run this effect if dimensions change
+    }, [dimensions]);
 
     return (
         <div style={{ position: 'relative', width: '100%', minHeight: '100vh', overflow: 'hidden' }}>
             <div className="congratulations-container">
                 <h1 className="congratulations-header">Congratulations! 🎉</h1>
-                <p className="congratulations-text">You&apos;ve completed all 100 flashcards on American History. Great job!</p>
+                <p className="congratulations-text">You've completed all 100 flashcards on American History. Great job!</p>
                 <p className="congratulations-text">Come back anytime to refresh your knowledge and prepare for the Civics test.</p>
+                <button
+                    onClick={onRestart}
+                    className="btn btn-outline start-over-button p-2 rounded-full bg-black hover:bg-accent-color text-white shadow-md transition-colors duration-300 ease-in-out"
+                >
+                    Start Over
+                </button>
             </div>
-            <div ref={ref} style={{ width: '100%', height: '400px', position: 'absolute', bottom: 0 }}></div>
+            <div ref={ref} style={{ width: '100%', height: '400px', position: 'absolute', bottom: 0, zIndex: 9999 }}></div>
             <style jsx>{`
                 .congratulations-container {
                     display: flex;
@@ -80,6 +85,7 @@ function CongratulationsWithFireworks() {
                     text-align: center;
                     padding: 20px;
                     box-sizing: border-box;
+                    position: relative;
                 }
                 .congratulations-header {
                     font-size: 2rem;
@@ -87,12 +93,21 @@ function CongratulationsWithFireworks() {
                 .congratulations-text {
                     font-size: 1.5rem;
                 }
+                .start-over-button {
+                    position: absolute;
+                    top: 20px;
+                    right: 20px;
+                }
                 @media (max-width: 768px) {
                     .congratulations-header {
                         font-size: 1.5rem;
                     }
                     .congratulations-text {
                         font-size: 1rem;
+                    }
+                    .start-over-button {
+                        top: 10px;
+                        right: 10px;
                     }
                 }
             `}</style>
