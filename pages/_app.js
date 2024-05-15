@@ -1,3 +1,4 @@
+"use client";
 import '../styles/globals.css'; // Import global styles, including NProgress CSS
 import NProgress from 'nprogress';
 import Router from 'next/router';
