@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import config from "../config"; 
 import { signIn } from 'next-auth/react';
 
 const HeroSection = () => {

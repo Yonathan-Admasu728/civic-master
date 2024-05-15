@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 import React, { useEffect, useRef, useState } from 'react';
 import { Fireworks } from 'fireworks-js';
 
@@ -16,13 +16,14 @@ function CongratulationsWithFireworks({ onRestart }) {
             }
         });
 
-        if (ref.current) {
-            resizeObserver.observe(ref.current);
+        const currentRef = ref.current;
+        if (currentRef) {
+            resizeObserver.observe(currentRef);
         }
 
         return () => {
-            if (ref.current) {
-                resizeObserver.unobserve(ref.current);
+            if (currentRef) {
+                resizeObserver.unobserve(currentRef);
             }
         };
     }, []);
@@ -62,7 +63,7 @@ function CongratulationsWithFireworks({ onRestart }) {
         <div style={{ position: 'relative', width: '100%', minHeight: '100vh', overflow: 'hidden' }}>
             <div className="congratulations-container">
                 <h1 className="congratulations-header">Congratulations! 🎉</h1>
-                <p className="congratulations-text">You've completed all 100 flashcards on American History. Great job!</p>
+                <p className="congratulations-text">You&apos;ve completed all 100 flashcards on American History. Great job!</p>
                 <p className="congratulations-text">Come back anytime to refresh your knowledge and prepare for the Civics test.</p>
                 <button
                     onClick={onRestart}
