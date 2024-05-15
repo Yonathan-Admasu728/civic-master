@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import ValuePropCard from './ValuePropCard';
 // Example of using the updated ValuePropCard in a section
