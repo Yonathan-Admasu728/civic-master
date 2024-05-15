@@ -3,16 +3,18 @@
 import '../styles/globals.css'; // Import global styles, including NProgress CSS
 import NProgress from 'nprogress';
 import Router from 'next/router';
-import { Provider as AuthProvider } from 'next-auth/react';
+import { SessionProvider as AuthProvider } from 'next-auth/react';
 import LayoutPrivate from '../app/dashboard/layout'; // Adjust the import path as necessary
 
 // Configure NProgress
 NProgress.configure({ showSpinner: false });
 
 // Bind NProgress to Router events
-Router.events.on('routeChangeStart', () => NProgress.start());
-Router.events.on('routeChangeComplete', () => NProgress.done());
-Router.events.on('routeChangeError', () => NProgress.done());
+if (typeof window !== 'undefined') {
+  Router.events.on('routeChangeStart', () => NProgress.start());
+  Router.events.on('routeChangeComplete', () => NProgress.done());
+  Router.events.on('routeChangeError', () => NProgress.done());
+}
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   // Define private routes
