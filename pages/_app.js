@@ -1,4 +1,5 @@
 "use client";
+
 import '../styles/globals.css'; // Import global styles, including NProgress CSS
 import NProgress from 'nprogress';
 import Router from 'next/router';
@@ -18,7 +19,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   const privateRoutes = ['/dashboard']; // Add other private routes if needed
 
   // Check if the current page is a private route
-  const isPrivate = privateRoutes.includes(Router.pathname);
+  const isPrivate = typeof window !== 'undefined' && privateRoutes.includes(Router.pathname);
 
   return (
     <AuthProvider session={session}>
