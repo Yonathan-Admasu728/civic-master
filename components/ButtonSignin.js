@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { useSession, signIn } from "next-auth/react";
@@ -27,8 +26,8 @@ const ButtonSignin = ({ text = "Get started", extraStyle }) => {
         href={config.auth.callbackUrl}
         className={`btn ${extraStyle ? extraStyle : ""}`}
       >
-        {session.user?.image ? (
-          <img
+        {/* {session.user?.image ? (
+          <Image
             src={session.user?.image}
             alt={session.user?.name || "Account"}
             className="w-6 h-6 rounded-full shrink-0"
@@ -40,7 +39,11 @@ const ButtonSignin = ({ text = "Get started", extraStyle }) => {
           <span className="w-6 h-6 bg-base-300 flex justify-center items-center rounded-full shrink-0">
             {session.user?.name?.charAt(0) || session.user?.email?.charAt(0)}
           </span>
-        )}
+        )} */}
+        <span className="w-6 h-6 bg-base-300 flex justify-center items-center rounded-full shrink-0">
+            {session.user?.name?.charAt(0) || session.user?.email?.charAt(0)}
+          </span>
+
         {session.user?.name || session.user?.email || "Account"}
       </Link>
     );

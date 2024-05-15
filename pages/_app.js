@@ -1,24 +1,3 @@
-// import '../styles/globals.css'; // Import global styles, including NProgress CSS
-// import NProgress from 'nprogress';
-// import Router from 'next/router';
-
-// // Configure NProgress
-// NProgress.configure({ showSpinner: false });
-
-// // Bind NProgress to Router events
-// Router.events.on('routeChangeStart', () => NProgress.start());
-// Router.events.on('routeChangeComplete', () => NProgress.done());
-// Router.events.on('routeChangeError', () => NProgress.done());
-
-// // Your existing _app.js content
-// function MyApp({ Component, pageProps }) {
-//   return <Component {...pageProps} />;
-// }
-
-// export default MyApp;
-
-
-
 import '../styles/globals.css'; // Import global styles, including NProgress CSS
 import NProgress from 'nprogress';
 import Router from 'next/router';

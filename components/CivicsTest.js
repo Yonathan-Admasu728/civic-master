@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect, useMemo } from 'react';
 import practiceData from '../data/practiceData.json';
 import CongratulationsWithFireworks from './FireWorksTest';
