@@ -1,4 +1,3 @@
-import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import EmailProvider from "next-auth/providers/email";
 import { MongoDBAdapter } from "@next-auth/mongodb-adapter";
@@ -10,6 +9,13 @@ export const authOptions = {
     GoogleProvider({
       clientId: process.env.GOOGLE_ID,
       clientSecret: process.env.GOOGLE_SECRET,
+      authorization: {
+        params: {
+          prompt: "consent",
+          access_type: "offline",
+          response_type: "code",
+        },
+      },
     }),
     ...(connectMongo
       ? [
@@ -34,7 +40,3 @@ export const authOptions = {
   },
   debug: true, // Enable debug mode for detailed logs
 };
-
-const handler = NextAuth(authOptions);
-
-export { handler as GET, handler as POST };

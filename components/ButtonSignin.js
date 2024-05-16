@@ -41,3 +41,4 @@ const ButtonSignin = ({ text = "Get started", extraStyle }) => {
 };
 
 export default ButtonSignin;
+
