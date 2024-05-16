@@ -3,7 +3,6 @@
 import { useSession, signIn } from "next-auth/react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import config from "../config";
 
 const ButtonSignin = ({ text = "Get started", extraStyle }) => {
   const router = useRouter();
@@ -11,21 +10,21 @@ const ButtonSignin = ({ text = "Get started", extraStyle }) => {
 
   const handleClick = () => {
     if (status === "authenticated") {
-      router.push(config.auth.callbackUrl);
+      router.push("/dashboard");
     } else {
-      signIn("google", { callbackUrl: config.auth.callbackUrl });
+      signIn("google", { callbackUrl: `${process.env.NEXTAUTH_URL}/dashboard` });
     }
   };
 
   if (status === "authenticated") {
     return (
       <Link
-        href={config.auth.callbackUrl}
+        href="/dashboard"
         className={`btn ${extraStyle ? extraStyle : ""}`}
       >
         <span className="w-6 h-6 bg-base-300 flex justify-center items-center rounded-full shrink-0">
-            {session.user?.name?.charAt(0) || session.user?.email?.charAt(0)}
-          </span>
+          {session.user?.name?.charAt(0) || session.user?.email?.charAt(0)}
+        </span>
         {session.user?.name || session.user?.email || "Account"}
       </Link>
     );

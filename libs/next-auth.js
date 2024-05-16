@@ -1,7 +1,7 @@
+import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import EmailProvider from "next-auth/providers/email";
 import { MongoDBAdapter } from "@next-auth/mongodb-adapter";
-import config from "../config";
 import connectMongo from "./mongo";
 
 export const authOptions = {
@@ -15,14 +15,14 @@ export const authOptions = {
       ? [
           EmailProvider({
             server: process.env.EMAIL_SERVER,
-            from: config.mailgun.fromNoReply,
+            from: process.env.EMAIL_FROM,
           }),
         ]
       : []),
   ],
-  ...(connectMongo && { adapter: MongoDBAdapter(connectMongo) }),
+  adapter: connectMongo ? MongoDBAdapter(connectMongo) : undefined,
   callbacks: {
-    session: async ({ session, token }) => {
+    async session({ session, token }) {
       if (session?.user) {
         session.user.id = token.sub;
       }
@@ -32,8 +32,9 @@ export const authOptions = {
   session: {
     strategy: "jwt",
   },
-  theme: {
-    brandColor: config.colors.main,
-  },
   debug: true, // Enable debug mode for detailed logs
 };
+
+const handler = NextAuth(authOptions);
+
+export { handler as GET, handler as POST };
