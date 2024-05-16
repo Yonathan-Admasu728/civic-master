@@ -10,20 +10,6 @@ export const authOptions = {
     GoogleProvider({
       clientId: process.env.GOOGLE_ID,
       clientSecret: process.env.GOOGLE_SECRET,
-      authorization: {
-        params: {
-          redirect_uri: `${process.env.NEXTAUTH_URL}/api/auth/callback/google`,
-        },
-      },
-      async profile(profile) {
-        return {
-          id: profile.sub,
-          name: profile.given_name ? profile.given_name : profile.name,
-          email: profile.email,
-          image: profile.picture,
-          createdAt: new Date(),
-        };
-      },
     }),
     ...(connectMongo
       ? [
